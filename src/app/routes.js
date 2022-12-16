@@ -1,7 +1,7 @@
 const { Router } = require('express');
 const {
   Index, Delete, Show, store, update,
-} = require('./app/controllers/contactController');
+} = require('./controllers/contactController');
 
 const router = Router();
 
